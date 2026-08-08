@@ -220,4 +220,25 @@ footer{padding:40px 7%;border-top:1px solid #ffffff12;color:#7f8c9d;text-align:c
 <div class="buttons"><a class="btn" href="#about">ABOUT FIDEL</a></div></div></section>
 
 <footer>© 2026 Fidel Castro Wanyama • Eldoret, Kenya<br><span>Personal brand website</span></footer>
-</body></html>
+</body></html><section id="connect">
+  <div class="wrap">
+    <div class="tag">CONNECT WITH ME</div>
+    <h2 class="section-title">Stay connected</h2>
+    <p class="muted">Follow the journey, see new moments, and get in touch.</p>
+
+    <div class="buttons">
+      <a class="btn" href="https://wa.me/" target="_blank">📲 WhatsApp</a>
+      <button class="btn" onclick="navigator.share ? navigator.share({
+        title:'Fidel Castro Wanyama',
+        text:'Check out my channel!',
+        url:'https://castro-szn.github.io/'
+      }) : navigator.clipboard.writeText('https://castro-szn.github.io/')">
+        📤 Share Channel
+      </button>
+    </div>
+
+    <p class="muted" style="margin-top:25px;">
+      👀 Visitors: <span id="visitor-count">Loading...</span>
+    </p>
+  </div>
+</section>
